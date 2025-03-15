@@ -1,0 +1,23 @@
+{
+    "Actions": [
+      {
+        "UUID": "be.elab.apint",
+        "Icon": "image/icon.png",
+        "Name": "APInt IO",
+        "States": [
+          {
+            "Image": "image/icon.png",
+            "Title": "APint IO",
+            "FontSize": "14",
+            "FontColor": "#ffffff"
+          }
+        ]
+      }
+    ],
+    "Author": "Eloi Stree",
+    "Name": "APInt IO",
+    "Version": "1.0",
+    "Description": "Button to trigger integer actions with APInt IO",
+    "SDKVersion": 2
+  }
+  

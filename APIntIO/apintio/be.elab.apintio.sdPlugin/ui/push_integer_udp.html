@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Push Int UDP Settings</title>
+    <meta charset="utf-8" />
+    <script src="https://sdpi-components.dev/releases/v3/sdpi-components.js"></script>
+</head>
+
+<body>
+    <!--
+        https://docs.elgato.com/streamdeck/sdk/guides/ui    
+        -->
+
+    <sdpi-item label="Integer Index" type="text">
+        <sdpi-textfield setting="integerIndex"></sdpi-textfield>
+    </sdpi-item>
+
+    <!-- use check box for index-->
+    <sdpi-item label="Use Index ?" type="checkbox">
+        <sdpi-checkbox setting="useIntegerIndex"></sdpi-checkbox>
+    </sdpi-item>
+
+    <sdpi-item label="Integer Value Down" type="text">
+        <sdpi-textfield setting="integerValueDown"></sdpi-textfield>
+    </sdpi-item>
+    <sdpi-item label="Integer Value Up" type="text">
+        <sdpi-textfield setting="integerValueUp"></sdpi-textfield>
+    </sdpi-item>
+    <sdpi-item label="IP Address" type="text">
+        <sdpi-textfield setting="ipAddress"></sdpi-textfield>
+    </sdpi-item>
+    <sdpi-item label="IP Port" type="text">
+        <sdpi-textfield setting="ipPort"></sdpi-textfield>
+    </sdpi-item>
+    
+   
+</body>
+
+</html>
