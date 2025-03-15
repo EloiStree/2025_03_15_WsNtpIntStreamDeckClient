@@ -2,6 +2,7 @@
 
 Attempt of creating a plugin for the Stream Deck:  
 https://docs.elgato.com/streamdeck/sdk/introduction/getting-started/  
+[![image](https://github.com/user-attachments/assets/b9527038-f036-4206-8f9b-acd6c8e4cdfa)](https://youtu.be/qiLz2uh6_mI?t=22)
 https://youtu.be/qiLz2uh6_mI?t=22
 
 ```
