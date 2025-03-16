@@ -3,7 +3,7 @@ import { action, KeyDownEvent, SingletonAction, WillAppearEvent } from "@elgato/
 /**
  * An example action class that displays a count that increments by one each time the button is pressed.
  */
-@action({ UUID: "be.elab.apintio.increment" })
+@action({ UUID: "be.elab.apint.increment" })
 export class IncrementCounter extends SingletonAction<CounterSettings> {
 	/**
 	 * The {@link SingletonAction.onWillAppear} event is useful for setting the visual representation of an action when it becomes visible. This could be due to the Stream Deck first
@@ -21,7 +21,6 @@ export class IncrementCounter extends SingletonAction<CounterSettings> {
 	 * settings using `setSettings` and `getSettings`.
 	 */
 	override async onKeyDown(ev: KeyDownEvent<CounterSettings>): Promise<void> {
-
 		// Update the count from the settings.
 		const { settings } = ev.payload;
 		settings.incrementBy ??= 1;
@@ -30,8 +29,6 @@ export class IncrementCounter extends SingletonAction<CounterSettings> {
 		// Update the current count in the action's settings, and change the title.
 		await ev.action.setSettings(settings);
 		await ev.action.setTitle(`${settings.count}`);
-		await ev.action.setImage("imgs/icon.png");
-
 	}
 }
 

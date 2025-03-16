@@ -6,7 +6,7 @@ import path from "node:path";
 import url from "node:url";
 
 const isWatching = !!process.env.ROLLUP_WATCH;
-const sdPlugin = "be.elab.apintio.sdPlugin";
+const sdPlugin = "be.elab.apint.sdPlugin";
 
 /**
  * @type {import('rollup').RollupOptions}

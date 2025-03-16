@@ -1,7 +1,7 @@
 {
     "scripts": {
         "build": "rollup -c",
-        "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart be.elab.apintio\""
+        "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart be.elab.apint\""
     },
     "type": "module",
     "devDependencies": {

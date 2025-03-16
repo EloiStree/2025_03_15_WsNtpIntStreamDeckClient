@@ -5,7 +5,7 @@
 	"Actions": [
 		{
 			"Name": "Counter",
-			"UUID": "be.elab.apintio.increment",
+			"UUID": "be.elab.apint.increment",
 			"Icon": "imgs/actions/counter/icon",
 			"Tooltip": "Displays a count, which increments by one on press.",
 			"PropertyInspectorPath": "ui/increment-counter.html",
@@ -19,17 +19,17 @@
 				}
 			]
 		},{
-			"Name": "Push Int UDP",
-			"UUID": "be.elab.apintio.pushintudp",
-			"Icon": "imgs/icon",
-			"Tooltip": "Push the store Integer in menu to UDP target",
+			"Name": "Push Integer UDP Down Up",
+			"UUID": "be.elab.apint.pushintudp",
+			"Icon": "",
+			"Tooltip": "Pushes an integer to a UDP server.",
 			"PropertyInspectorPath": "ui/push_integer_udp.html",
 			"Controllers": [
 				"Keypad"
 			],
 			"States": [
 				{
-					"Image": "imgs/icon",
+					"Image": "imgs/actions/counter/key",
 					"TitleAlignment": "middle"
 				}
 			]
@@ -38,7 +38,7 @@
 	"Category": "APInt IO",
 	"CategoryIcon": "imgs/plugin/category-icon",
 	"CodePath": "bin/plugin.js",
-	"Description": "Push Integer to APIntIO Hub",
+	"Description": "Push Integer for actions",
 	"Icon": "imgs/plugin/marketplace",
 	"SDKVersion": 2,
 	"Software": {
@@ -58,5 +58,5 @@
 		"Version": "20",
 		"Debug": "enabled"
 	},
-	"UUID": "be.elab.apintio"
+	"UUID": "be.elab.apint"
 }
